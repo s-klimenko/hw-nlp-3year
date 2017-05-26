@@ -1,0 +1,32 @@
+Multichar_Symbols +inf +1.Sing +2.Sing +3.Sing +1.Pl +2.Pl +3.Pl
+
+LEXICON Root
+
+stanova Conj;
+posechiva Conj;
+poseschat Conj;
+bolet Conj;
+verova Conj;
+verit Conj;
+dopisiva Conj;
+perepisivat Conj;
+doputova Conj;
+priehat Conj;
+doruchkova Conj;
+zavtrakat Conj;
+skuchat Conj;
+dochekiva Conj;
+vstrechat Conj;
+dozivlava Conj;
+perenosit Conj;
+
+
+LEXICON Conj
+
++inf:^ti #;
++1.Sg:^em #;
++2.Sg:^esh #;
++3.Sg:^e #;
++1.Pl:^emo #;
++2.Pl:^ete #;
++3.Pl:^u #;

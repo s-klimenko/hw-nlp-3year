@@ -1,0 +1,10 @@
+define TDeletion t -> 0 || _ "^" ;
+define UJReplacement [o v a | e v a] -> u j || _ "^" [ e m | e s h | e | e m o | e t e | u ];
+define AReplacement e -> 0 || a  "^" _ ;
+define IReplacement e -> 0 || i  "^" _ ;
+define CleanUp "^" -> 0 ;
+
+read lexc serbian.lexc
+define Lexicon;
+
+regex Lexicon .o. TDeletion .o. UJReplacement .o. AReplacement .o. IReplacement .o. CleanUp;
